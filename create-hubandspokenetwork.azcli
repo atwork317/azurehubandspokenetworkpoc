@@ -1,6 +1,6 @@
 az account show -o table
 az account list -o table
-az account set -s 'Visual Studio Enterprise'
+az account set -s "Azure for Students"
 
 az interactive 
 
@@ -8,7 +8,7 @@ az interactive
 sub=vsent
 sub=poc-hubspoke
 rgName=rg-hub-vnet-$sub
-location=canadacentral
+location=eastus
 hubVNetName=vnet-hub-$sub
 prodVnetName=vnet-prod-$sub
 devVnetName=vnet-dev-$sub
